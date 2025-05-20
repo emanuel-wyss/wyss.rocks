@@ -1,30 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ~/wyss.rocks
 
-## Getting Started
+           ▄▄▄▄▄▄
+        ▄██████████▄
+       ███        ███
+       ███ next   ███
+       ███  +     ███
+       ███ sanity ███
+       ███        ███
+        ▀██████████▀
+           ▀▀▀▀▀▀
+       my-personal-website
+       ────────────────
+       stack: next.js + turbopack + bun + sanity
+       uptime: ~in development forever
+       deploy: vercel
+       theme: caffeine-dark
+       memory: 16GB imposter
+       CPU: 1 human, 100 tabs open
 
-First, run the development server:
+## 🚀 Getting Started
 
 ```bash
+bun install
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ☁️ Deploy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Platform: Vercel
+- Strategy: git push and pray
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## For the CMS
 
-## Learn More
+It's living at `/edit`
 
-To learn more about Next.js, take a look at the following resources:
+## license
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+MIT
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- no warranty
+- no tech support
+- all vibes
 
-## Deploy on Vercel
+## ☕ Contribute?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You could... but this is my personal site, so maybe don’t? 😅
+But feedback, ideas, or memes are always welcome.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> now playing: lo-fi code beats to ignore bugs to
+
+```csharp
+┌─────────────────────────────────────────────┐
+│ wyss.rocks // v2.0alpha                     │
+├─────────────────────────────────────────────┤
+│ Username: █████████                         │
+│ Password: █████████                         │
+│                                             │
+│ > Accessing personal homepage...            │
+│ > Loading Sanity CMS... ok                  │
+│ > Rendering with Next.js... ok              │
+│ > Running on Bun... turbocharged            │
+│                                             │
+│ Welcome to my corner of the internet.       │
+│ Press [ENTER] to continue\_                 │
+└─────────────────────────────────────────────┘
+```
