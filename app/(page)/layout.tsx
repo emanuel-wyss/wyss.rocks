@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next"
 import { Geist, Geist_Mono } from "next/font/google";
 import "../globals.css";
 import { client } from "@/sanity/lib/client";
@@ -27,6 +28,7 @@ export default async function RootLayout({
   const pages = await client.fetch(PAGES_QUERY);
   return (
     <html lang="en">
+      <Analytics />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
