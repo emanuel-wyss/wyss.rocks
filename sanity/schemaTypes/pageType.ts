@@ -18,6 +18,13 @@ const pageType = defineType({
         source: "title",
         maxLength: 96,
       },
+      validation: (Rule) =>
+        Rule.required().custom((value) => {
+          if (value?.current === "edit") {
+            return 'The slug "edit" is reserved.';
+          }
+          return true;
+        }),
     }),
     defineField({
       name: "content",
