@@ -1,1 +1,5 @@
-bun test
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+bun run lint
+bun run typecheck
